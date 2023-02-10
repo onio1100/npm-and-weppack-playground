@@ -1,0 +1,16 @@
+{
+  "name": "pianino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "testowa komenda"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "random-picture": "^4.0.6",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
