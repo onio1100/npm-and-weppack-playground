@@ -1,13 +1,13 @@
 const frame = document.querySelector(".frame");
-import { RandomPicture } from "random-picture";
-// const { RandomPicture } = require("random-picture");
 const img = document.querySelector("img");
-const image = RandomPicture()
+const randomImage = require("cool-images");
 
 
 function changePicture(){
-    img.src = image.url;
-    console.log("chuj");
+    let newImage = randomImage.one();
+    img.src = newImage;
 }
 
-frame.addEventListener("click",changePicture);
+
+
+frame.addEventListener("click", changePicture);
